@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/noSisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_sisi"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_hitung_volume" />
+
+        <Button
+            android:id="@+id/btnLuas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_hitung_luas"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/hasilText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tampilan_hasil"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:gravity="center" />
+    </LinearLayout>
+</layout>
+S

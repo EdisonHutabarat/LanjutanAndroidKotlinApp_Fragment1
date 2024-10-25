@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MenghitungKubusApp</string>
+    <string name="input_sisi">Masukkan panjang sisi kubus</string>
+    <string name="btn_hitung_volume">Hitung Volume</string>
+    <string name="btn_hitung_luas">Hitung Luas Permukaan</string>
+    <string name="tampilan_hasil">Hasil akan muncul di sini</string>
+    <string name="error_input">Mohon masukkan panjang sisi yang valid</string>
+    <string name="hasil_volume">Volume Kubus: </string>
+    <string name="hasil_luas">Luas Permukaan Kubus: </string>
+</resources>
